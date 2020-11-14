@@ -3,5 +3,7 @@
 node_modules
 lib
 lib_types
-tmp
 yarn-error.log
+tmp
+
+src

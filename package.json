@@ -1,16 +1,22 @@
 {
   "name": "crow-lib",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Crow lib",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node src/index.js"
+    "build": "rm -rf lib lib_types && tsc",
+    "prepublishOnly": "npm install && yarn build"
   },
-  "author": "",
+  "types": "lib_types/index.d.ts",
+  "author": "Andranik Arakelyan",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andranikarakelyan/crow-lib.git"
+  },
   "dependencies": {
-    "mysql": "^2.16.0"
+    "@types/lodash.merge": "^4.6.6",
+    "lodash.merge": "^4.6.2"
   },
   "devDependencies": {
     "typescript": "^4.0.5"

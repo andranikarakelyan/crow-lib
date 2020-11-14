@@ -3,6 +3,10 @@
     "target": "ES2020",
     "module": "CommonJS",
     "rootDir": "src",
-    "outDir": "out"
-  }
+    "outDir": "lib",
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationDir": "lib_types"
+  },
+  "exclude": [ "tmp" ]
 }

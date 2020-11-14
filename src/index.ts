@@ -1,1 +1,2 @@
-throw new Error( `Library now in development` );
+export * from './tasks_manager/index';
+

@@ -1,0 +1,2 @@
+export { TasksManager } from './TasksManager';
+
