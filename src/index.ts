@@ -1,2 +1,2 @@
-export * from './tasks_manager/index';
-
+export * as Tasks from './tasks_manager';
+export * from './errors';

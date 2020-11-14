@@ -6,7 +6,8 @@
     "outDir": "lib",
     "esModuleInterop": true,
     "declaration": true,
-    "declarationDir": "lib_types"
+    "declarationDir": "lib_types",
+    "strict": true,
   },
   "exclude": [ "tmp" ]
 }
