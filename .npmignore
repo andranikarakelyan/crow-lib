@@ -1,9 +1,5 @@
 .idea
-
-node_modules
-lib
-lib_types
-yarn-error.log
 tmp
+yarn-error.log
 
 src
